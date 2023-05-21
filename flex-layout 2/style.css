@@ -49,12 +49,17 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  display: flex; 
-  flex-wrap: wrap;
+  padding: 32px;
+  flex: 1 0 300px;
 }
 
 .card-container {
   display: flex;
+  gap: 16px;
+  flex-direction: colum;
+  flex-wrap: wrap;
+  padding: 32px;
+  
 }
 
 .container {
