@@ -1,3 +1,6 @@
-let petName = "Bones";
+let myAge = 19;
 
-console.log(petName.split());
+let humanDogRatio = 7;
+
+myDogAge = myAge * humanDogRatio;
+console.log(myDogAge);
