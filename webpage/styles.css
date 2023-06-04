@@ -54,6 +54,7 @@ ul {
 
 .hero-header p {
     font-size: 36px;
+    
 }
 
 .hero-content {
@@ -74,7 +75,7 @@ ul {
 }
 
 .links {
-    display: none !important;
+    display: none;
 }
 
 ul {
@@ -92,6 +93,7 @@ a {
 }
 
 .information {
+    font-size: 18px;
 }
 
 .information-header {
@@ -100,13 +102,18 @@ a {
 }
 
 .footer {
-    background-color: blueviolet;
+    position: relative;
+    width: 100%;
+    background-color: rgb(73, 73, 73);
     color: white;
     font-size: 18px;
+    left: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+
 }
 
 @media  (min-width: 820px) {
@@ -116,19 +123,20 @@ a {
         box-sizing: border-box;
     }
 
-    .hero {
-        width: 100%;
-        display: none !important;
-        
-    }
-
     .links {
-        display: none !important;
+        display: flex;
+    }
+    .hero {
+        height: auto;
+    }
+    .hero-content{
+        display: flex;
+        align-items: center;
     }
 
     .hero-header {
-        display: none;
-        overflow: hidden;
-
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
     }
 }
