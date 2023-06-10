@@ -1,0 +1,120 @@
+/* Color palette */
+/* 
+0e3746
+eae8dc
+f4f2ec
+be2623
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/vader.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    height: 100vh;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #f4f2ec;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+span {
+    background-color: #7E38B7;
+    padding: 0.6rem;
+}
+
+.header-logo {
+    font-family: 'Open Sans', sans-serif;
+    color: #f4f2ec;
+    font-weight: 700;
+}
+
+.hero-content h2 {
+    font-weight: 700;
+    font-size: 52px;
+    width: 40%;
+    text-align: start;
+}
+
+.hero-content p {
+    width: 34rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 100;
+}
+
+.hero-content-container {
+    margin-bottom: 25vh;
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #f4f2ec;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+button {
+    background-color:#7E38B7;
+    padding: 0.7rem;
+    width: 12rem;
+    border-radius: 6px;
+    color: #f4f2ec;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.links ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.information-container {
+    height: 20vh;
+}
+
+@media screen and (max-width: 420px) {
+    .hero {
+        width: 100%;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .hero-content p{
+        width: fit-content;
+    }
+    
+    .hero-content h2 {
+        font-size: 48px;
+        width: fit-content;
+    }
+
+    /* .information-container {
+        height: auto;
+    } */
+}
