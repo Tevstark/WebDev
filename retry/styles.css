@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url(../retry/typewriter/TYPEWR__.TTF);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.header-logo img{
+    width: 7rem;
+    background-color: red;
+    border-radius: 3.5rem;
+}
+.links ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: red;
+    padding: 8px;
+    border-radius: 1.3rem;
+    
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    align-items: center;
+    background-color: red;
+    border-radius: 2rem;
+}
+
+.hero-content img {
+    max-height: 55vh;
+}
+
+.hero-text h2 {
+    line-height: 5rem;
+    font-size: 4rem;
+    max-width: 600px;
+    font-weight: 900;
+}
+
+.hero-text span {
+    color: black;
+
+}
+
+.hero-text {
+    line-height: 1.5rem;
+    max-width: 500px;
+    padding-right: rem;
+}
+
+.toggles {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.toggles img {
+    max-width: 100px;
+}
