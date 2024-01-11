@@ -28,3 +28,11 @@ console.log(secondchild.parentNode) //<div id="parent">...</div>
 console.log(secondchild.nextElementSibling) //<h4>i am alive</h4>
 
 console.log(secondchild.previousElementSibling) //<div id="firstchild">i am a first child</div>
+
+// Accessing a button element
+const myButton = document.getElementById('myButton');
+
+// Adding a click event listener
+myButton.addEventListener('click', function() {
+    alert('Button Clicked!');
+});
