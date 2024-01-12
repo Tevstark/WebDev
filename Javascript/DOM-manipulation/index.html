@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js" defer></script>
+    <!-- <script src="index.js" defer></script> -->
     <link rel="stylesheet" href="styles.css">
     <title>DOM Manipulation</title>
 </head>
 <body>
-    <div class="hero">
+    <!-- <div class="hero">
         <div class="hero-header">
             <h1>Here We Go!</h1>
             <p>Welcome to our website.</p>
-            <button id= "myButton"type="button">Press Me</button>
+            <button id= "my-Button" type="button">Press Me</button>
         </div>
     </div>
     <div class="card">
@@ -29,9 +29,36 @@
         <h1>hello world</h1>
         <p>i am the last child</p>
         </div>  
+
+         -->
 </body>
 
 <script>
-    
+    let p1 = document.createElement('p');
+    p1.textContent = "Hey I'm red!";
+    p1.style.color = 'red';
+    document.body.appendChild(p1);
+
+    let heading1 = document.createElement('h1');
+    heading1.textContent = "I'm a blue h3!";
+    heading1.style.color = 'blue';
+    document.body.insertBefore(heading1, p1);
+
+    let div1 = document.createElement('div');
+    div1.setAttribute('style', 'border: black; background: pink;');
+    document.body.appendChild(div1);
+
+    let h1 = document.div1.createElement('h1');
+    h1.textContent = "I'm in a div";
+    div1.appendChild(h1);
+
+    let p1 = document.div1.createElement('p');
+    p1.textContent = "ME TOO!";
+    div1.appendChild(p1);
+
+    let container = document.createElement('div');
+    container.appendChild(div1)
+
 </script>
+
 </html>
