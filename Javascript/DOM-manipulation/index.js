@@ -78,6 +78,19 @@ container.setAttribute("style", "width: 30rem; height: 30rem; border: solid 1px 
 document.body.appendChild(container);
 container.appendChild(div1);
 
+let btn = document.querySelector('#btn');
+
+// btn.onclick = () => alert("Alas! I have been clicked");
+
+btn.addEventListener('click', function(e){
+    alert('Clicked!');
+});
+
+window.addEventListener('scroll', () => {
+    console.log('Scrolling...');
+});
+
+
 
 
 
