@@ -9,6 +9,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: rgb(208, 208, 235);
+    mask-border-width: 23px;
 }
 
 .card {
